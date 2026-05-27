@@ -3,16 +3,17 @@
 <package format="3">
   <name>human_detector</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="localdawsonj2@todo.todo">localdawsonj2</maintainer>
-  <license>TODO: License declaration</license>
+  <description>Detecting and following a person using YOLOv26 and TurtleBot4 camera</description>
+  <maintainer email="awacisse@gmail.com">Awa Cisse</maintainer>
+  <maintainer email="jeremiahdawson556@gmail.com">Jeremiah Dawson</maintainer>
+  <maintainer email="mai.tran1714@gmail.com">Mai Tran</maintainer>
+  <maintainer email="masonsmoses@gmail.com">Mason Moses</maintainer>
+  <license>MIT License</license>
 
-  <!-- <exec_depend>depthai_ros_driver</exec_depend> -->
-
-  <test_depend>ament_copyright</test_depend>
-  <test_depend>ament_flake8</test_depend>
-  <test_depend>ament_pep257</test_depend>
-  <test_depend>python3-pytest</test_depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>cv_bridge</depend>
 
   <export>
     <build_type>ament_python</build_type>
