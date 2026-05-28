@@ -1,4 +1,6 @@
 # Human Follower ROS 2 Node
+**Carleton College, Introduction to Robotics**
+**Awa Cisse, Mai Tran, Jeremiah Dawson, Mason Moses**
 
 A ROS 2 package that enables a mobile robot, TurtleBot 4, to track and autonomously follow a human using real-time computer vision. 
 
