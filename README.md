@@ -18,7 +18,7 @@ The system
 ## Project Architecture & Control Logic
 
 The node implements a simple closed-loop visual servoing routine:
-* **Angular Control (Steering):** Calculates the horizontal pixel error ($e_x$) between the bounding box center ($x_{center}$) and the true center of the image ($x_{\text{img\_center}}$). The robot uses a proportional control factor to steer and keep the human centered in its field of view.
+* **Angular Control (Steering):** Calculates the horizontal pixel error ($e_x$) between the bounding box center ($x_{center}$) and the true center of the image ($x_{img\_center}$). The robot uses a proportional control factor to steer and keep the human centered in its field of view.
 * **Linear Control (Distance):** Monitors the **height** of the bounding box. Because the human appears larger as they get closer, a bounding box height exceeding $200.0$ pixels acts as a safety threshold, causing the robot to stop to avoid collision. If the human is further away (smaller box height), the robot drives forward at $0.2 m/s$.
 * **Target Recovery Memory:** If the human momentarily walks out of frame, the node remembers the last known direction the human was moving and rotates in place ($0.4 \text{ rad/s}$) towards that side to re-acquire the target.
 
