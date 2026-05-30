@@ -12,10 +12,6 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-
-        # # include launch folder
-        # (os.path.join('share', package_name, 'launch'), 
-        #  glob(os.path.join('launch', '*launch.[pxy][yma]*'))),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -30,7 +26,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'h_detector = human_detector.human_detector_node:main',
+            # 'h_detector = human_detector.human_detector_node:main',
+            'human_detector_exec = human_detector.main:main',
         ],
     },
 )
