@@ -1,0 +1,49 @@
+[0.487s] Invoking command in '/Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/src/human_detector': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_detector build --build-base /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build install --record /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/install.log --single-version-externally-managed install_data
+[0.633s] running egg_info
+[0.633s] creating ../../build/human_detector/human_detector.egg-info
+[0.643s] writing ../../build/human_detector/human_detector.egg-info/PKG-INFO
+[0.643s] writing dependency_links to ../../build/human_detector/human_detector.egg-info/dependency_links.txt
+[0.643s] writing entry points to ../../build/human_detector/human_detector.egg-info/entry_points.txt
+[0.644s] writing requirements to ../../build/human_detector/human_detector.egg-info/requires.txt
+[0.644s] writing top-level names to ../../build/human_detector/human_detector.egg-info/top_level.txt
+[0.644s] writing manifest file '../../build/human_detector/human_detector.egg-info/SOURCES.txt'
+[0.664s] reading manifest file '../../build/human_detector/human_detector.egg-info/SOURCES.txt'
+[0.664s] writing manifest file '../../build/human_detector/human_detector.egg-info/SOURCES.txt'
+[0.664s] running build
+[0.664s] running build_py
+[0.664s] creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build
+[0.664s] creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build/lib
+[0.664s] creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build/lib/human_detector
+[0.664s] copying human_detector/main.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build/lib/human_detector
+[0.669s] copying human_detector/visual_tracker.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build/lib/human_detector
+[0.669s] copying human_detector/human_detector_node.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build/lib/human_detector
+[0.670s] copying human_detector/obstacle_avoidance.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build/lib/human_detector
+[0.670s] copying human_detector/human_detector_node_v1.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build/lib/human_detector
+[0.670s] copying human_detector/__init__.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build/lib/human_detector
+[0.670s] running install
+[0.673s] running install_lib
+[0.684s] creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages/human_detector
+[0.684s] copying /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build/lib/human_detector/main.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages/human_detector
+[0.684s] copying /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build/lib/human_detector/visual_tracker.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages/human_detector
+[0.684s] copying /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build/lib/human_detector/human_detector_node.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages/human_detector
+[0.684s] copying /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build/lib/human_detector/obstacle_avoidance.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages/human_detector
+[0.684s] copying /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build/lib/human_detector/human_detector_node_v1.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages/human_detector
+[0.684s] copying /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build/lib/human_detector/__init__.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages/human_detector
+[0.684s] byte-compiling /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages/human_detector/main.py to main.cpython-312.pyc
+[0.684s] byte-compiling /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages/human_detector/visual_tracker.py to visual_tracker.cpython-312.pyc
+[0.685s] byte-compiling /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages/human_detector/human_detector_node.py to human_detector_node.cpython-312.pyc
+[0.686s] byte-compiling /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages/human_detector/obstacle_avoidance.py to obstacle_avoidance.cpython-312.pyc
+[0.686s] byte-compiling /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages/human_detector/human_detector_node_v1.py to human_detector_node_v1.cpython-312.pyc
+[0.687s] byte-compiling /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages/human_detector/__init__.py to __init__.cpython-312.pyc
+[0.687s] running install_data
+[0.687s] creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/share/ament_index
+[0.687s] creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/share/ament_index/resource_index
+[0.688s] creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/share/ament_index/resource_index/packages
+[0.688s] copying resource/human_detector -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/share/ament_index/resource_index/packages
+[0.688s] copying package.xml -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/share/human_detector
+[0.688s] running install_egg_info
+[0.698s] Copying ../../build/human_detector/human_detector.egg-info to /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages/human_detector-0.0.0-py3.12.egg-info
+[0.699s] running install_scripts
+[0.768s] Installing human_detector_exec script to /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/human_detector
+[0.768s] writing list of installed files to '/Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/install.log'
+[0.782s] Invoked command in '/Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/src/human_detector' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_detector/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_detector build --build-base /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/build install --record /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_detector/install.log --single-version-externally-managed install_data
