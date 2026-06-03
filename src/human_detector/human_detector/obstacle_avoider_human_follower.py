@@ -10,7 +10,7 @@ from .visual_tracker import VisualTracker
 from .obstacle_avoidance import ObstacleAvoider
 
 
-class HumanDetector(Node):
+class ObstacleAvoiderHumanFollower(Node):
     def __init__(self):
         super().__init__('human_follower')
         self.bridge = CvBridge()
