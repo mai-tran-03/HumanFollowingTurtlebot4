@@ -11,7 +11,7 @@ from .laser_processor import LaserProcessor
 
 
 
-class HumanDetector(Node):
+class LaserScanHumanFollowe(Node):
     def __init__(self):
         super().__init__('human_follower')
 
