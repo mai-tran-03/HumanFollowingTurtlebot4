@@ -2,7 +2,7 @@ import rclpy
 from sensor_msgs.msg import Image
 
 from ..human_follower_node import HumanFollower
-from histogram_visual_tracker import HistogramVisualTracker
+from .histogram_visual_tracker import HistogramVisualTracker
 
 
 class OneHumanFollower(HumanFollower):
