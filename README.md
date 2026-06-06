@@ -5,6 +5,10 @@
 
 A ROS 2 package that enables a mobile robot, TurtleBot 4, to track and autonomously follow a human using real-time computer vision. 
 
+---
+
+## Project Core Features
+
 The system 
 - subscribes to an RGB camera feed, 
 - processes the frames through a **YOLO** object detection model to detect a person, 
@@ -24,9 +28,30 @@ The node implements a simple closed-loop visual servoing routine:
 
 ---
 
+### Project Pipeline
+
+![A pipeline of our human-following robot project](project-pipeline.png)
+
+---
+
+### Project Simple Video Demo
+
+![Robot follows a detected person](demo-follow-person.gif)
+![Robot searches for a person](demo-search-person.gif)
+
+A full video demonstration can be found on [YouTube](https://youtu.be/0ZGfvtuIKAA).
+
+---
+
 ## Installation and Setup
 
 Execute the following steps from the root directory of the workspace.
+
+0. Work in a virtual environment
+
+(RECOMMENDED) To separate the current workspace dependencies and installations: 
+
+    source venv/bin/activate
 
 1. Source ROS 2 Environment
 
@@ -50,7 +75,7 @@ Ensure all foundational ROS 2 messaging packages and vision bridging tools are c
 
 Build the workspace utilizing the colcon build tool specifically for the tracking package:
 
-    colcon build --packages-select human_detector
+    colcon build --packages-select human_following_robot
 
 ---
 
@@ -66,7 +91,7 @@ Open a new terminal shell execution instance and source the base ROS 2 installat
 
 Launch the human tracking script using the standard ROS 2 command-line interface:
     
-    ros2 run human_detector h_detector
+    ros2 run human_following_robot h_follower 
 
 3. Verification & Topics
 
@@ -79,3 +104,4 @@ While the node is running, you can open another terminal window to verify data s
 - View the Visual Bounding Box Stream:
 
         ros2 run rqt_image_view rqt_image_view
+

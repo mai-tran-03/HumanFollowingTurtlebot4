@@ -1,0 +1,2 @@
+[console_scripts]
+h_follower = human_following_robot.human_follower_node:main

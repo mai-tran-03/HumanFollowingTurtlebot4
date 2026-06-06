@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/human_following_robot/human_following_robot.egg-info
+writing ../../build/human_following_robot/human_following_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/human_following_robot/human_following_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/human_following_robot/human_following_robot.egg-info/entry_points.txt
+writing requirements to ../../build/human_following_robot/human_following_robot.egg-info/requires.txt
+writing top-level names to ../../build/human_following_robot/human_following_robot.egg-info/top_level.txt
+writing manifest file '../../build/human_following_robot/human_following_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/human_following_robot/human_following_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/human_following_robot/human_following_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build
+creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib
+creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib/human_following_robot
+copying human_following_robot/main.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib/human_following_robot
+copying human_following_robot/follower_node.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib/human_following_robot
+copying human_following_robot/__init__.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib/human_following_robot
+running install
+running install_lib
+creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages/human_following_robot
+copying /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib/human_following_robot/main.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages/human_following_robot
+copying /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib/human_following_robot/follower_node.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages/human_following_robot
+copying /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib/human_following_robot/__init__.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages/human_following_robot
+byte-compiling /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages/human_following_robot/main.py to main.cpython-312.pyc
+byte-compiling /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages/human_following_robot/follower_node.py to follower_node.cpython-312.pyc
+byte-compiling /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages/human_following_robot/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/share/ament_index
+creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/share/ament_index/resource_index
+creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/share/ament_index/resource_index/packages
+error: can't copy 'resource/human_following_robot': doesn't exist or not a regular file

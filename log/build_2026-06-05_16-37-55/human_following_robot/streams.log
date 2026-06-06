@@ -1,0 +1,34 @@
+[0.431s] Invoking command in '/Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/src/human_following_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_following_robot build --build-base /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build install --record /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/install.log --single-version-externally-managed install_data
+[0.561s] running egg_info
+[0.561s] creating ../../build/human_following_robot/human_following_robot.egg-info
+[0.570s] writing ../../build/human_following_robot/human_following_robot.egg-info/PKG-INFO
+[0.570s] writing dependency_links to ../../build/human_following_robot/human_following_robot.egg-info/dependency_links.txt
+[0.570s] writing entry points to ../../build/human_following_robot/human_following_robot.egg-info/entry_points.txt
+[0.570s] writing requirements to ../../build/human_following_robot/human_following_robot.egg-info/requires.txt
+[0.570s] writing top-level names to ../../build/human_following_robot/human_following_robot.egg-info/top_level.txt
+[0.570s] writing manifest file '../../build/human_following_robot/human_following_robot.egg-info/SOURCES.txt'
+[0.587s] reading manifest file '../../build/human_following_robot/human_following_robot.egg-info/SOURCES.txt'
+[0.587s] writing manifest file '../../build/human_following_robot/human_following_robot.egg-info/SOURCES.txt'
+[0.587s] running build
+[0.588s] running build_py
+[0.588s] creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build
+[0.588s] creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib
+[0.588s] creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib/human_following_robot
+[0.588s] copying human_following_robot/main.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib/human_following_robot
+[0.588s] copying human_following_robot/follower_node.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib/human_following_robot
+[0.588s] copying human_following_robot/__init__.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib/human_following_robot
+[0.588s] running install
+[0.591s] running install_lib
+[0.600s] creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages/human_following_robot
+[0.600s] copying /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib/human_following_robot/main.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages/human_following_robot
+[0.600s] copying /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib/human_following_robot/follower_node.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages/human_following_robot
+[0.600s] copying /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build/lib/human_following_robot/__init__.py -> /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages/human_following_robot
+[0.600s] byte-compiling /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages/human_following_robot/main.py to main.cpython-312.pyc
+[0.600s] byte-compiling /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages/human_following_robot/follower_node.py to follower_node.cpython-312.pyc
+[0.601s] byte-compiling /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages/human_following_robot/__init__.py to __init__.cpython-312.pyc
+[0.601s] running install_data
+[0.601s] creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/share/ament_index
+[0.601s] creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/share/ament_index/resource_index
+[0.601s] creating /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/share/ament_index/resource_index/packages
+[0.601s] error: can't copy 'resource/human_following_robot': doesn't exist or not a regular file
+[0.610s] Invoked command in '/Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/src/human_following_robot' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/install/human_following_robot/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_following_robot build --build-base /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/build install --record /Accounts/localdawsonj2/Desktop/HumanFollowingTurtlebot4/build/human_following_robot/install.log --single-version-externally-managed install_data

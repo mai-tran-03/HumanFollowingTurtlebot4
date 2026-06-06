@@ -1,2 +1,0 @@
-[console_scripts]
-human_detector_exec = human_detector.main:main
